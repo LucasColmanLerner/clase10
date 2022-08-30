@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 2px;
+}
+body {
+    background-color: lightcoral;
+    border: solid 1px black;
+}
