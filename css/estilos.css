@@ -4,7 +4,11 @@
 }
 .encabezado {
     background-color: aliceblue;
-    position: sticky;
+}
+.imgMain {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 nav ul {
     display: flex;
@@ -13,4 +17,30 @@ nav ul {
 }
 footer {
     background-color: aliceblue;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+h3 {
+    font-weight: bold;
+    text-align: center;
+    background-color: aquamarine;
+}
+p {
+    background-color: aquamarine;
+}
+.encabezado2 {
+    background-image: linear-gradient(red, green, yellow);
+}
+.imgMain2 {
+    height: 100vh;
+    transition: 3s;
+}
+.imgMain2:hover {
+    height: 200vh;
+}
+.h12 {
+    background-image: linear-gradient(to top, yellow, green);
 }
