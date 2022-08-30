@@ -2,7 +2,15 @@
     margin: 0;
     padding: 2px;
 }
-body {
-    background-color: lightcoral;
-    border: solid 1px black;
+.encabezado {
+    background-color: aliceblue;
+    position: sticky;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+footer {
+    background-color: aliceblue;
 }
